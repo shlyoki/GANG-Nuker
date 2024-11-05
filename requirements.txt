@@ -38,3 +38,5 @@ tqdm
 pipe
 fore
 aes
+gevent>=24.10.1 # not directly required, pinned by Snyk to avoid a vulnerability
+waitress>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
